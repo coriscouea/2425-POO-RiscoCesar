@@ -1,59 +1,27 @@
 Comparación entre Programación Tradicional y Programación Orientada a Objetos (POO)
+Ambos códigos tienen el mismo propósito: calcular el promedio de temperaturas de una semana en Guayaquil, pero lo hacen de manera diferente. 
+A continuación, se explican las diferencias de forma sencilla:
 
-Enfoque y Estructura:
+1. Programación Tradicional
 
-Programación Tradicional: El código sigue una estructura funcional, donde se definen funciones independientes (ingresar_temperaturas y calcular_promedio) 
-que reciben parámetros y retornan valores. El flujo del programa se maneja a través de llamadas a estas funciones dentro de un único bloque secuencial (la función main).
-Programación Orientada a Objetos (POO): El código está basado en la definición de clases y objetos. Se utilizan conceptos como encapsulamiento, herencia, abstracción y 
-polimorfismo para organizar el código. La clase RegistroClima maneja las temperaturas y ofrece métodos para ingresar y calcular el promedio de las temperaturas. Además, 
-la clase derivada RegistroClimaAvanzado extiende la funcionalidad mediante polimorfismo.
+Estructura: Se basa en funciones (ingresar_temperaturas y calcular_promedio) que se llaman desde una función principal (main).
+Simplicidad: Es más fácil de entender y usar para programas pequeños.
+Mantenimiento: Puede ser difícil de modificar si el programa crece.
+Ejemplo de flujo: Se ingresa la temperatura, se guarda en una lista y se calcula el promedio directamente.
 
-Encapsulamiento:
+2. Programación Orientada a Objetos (POO)
 
-Programación Tradicional: No se utiliza encapsulamiento, ya que las funciones trabajan directamente con variables y estructuras de datos sin ocultar detalles internos.
-La lista de temperaturas es manejada directamente dentro de la función ingresar_temperaturas, lo que puede generar dificultades para modificar o extender el código 
-sin afectar otras partes.
-Programación Orientada a Objetos (POO): La clase RegistroClima encapsula la lista de temperaturas y solo expone métodos públicos para manipularlas. Esto mejora la 
-modularidad y permite modificar la implementación interna sin afectar el código que utiliza la clase.
+Estructura: Se basa en clases (RegistroClima y RegistroClimaAvanzado) y objetos.
+Encapsulamiento: Los datos (temperaturas) se gestionan dentro de la clase.
+Extensibilidad: Se puede agregar más funcionalidad fácilmente usando herencia.
+Polimorfismo: Se cambia el método calcular_promedio para tener un comportamiento diferente en RegistroClimaAvanzado.
+Ejemplo de flujo: Se crea un objeto, se ingresan las temperaturas y el objeto calcula el promedio.
 
-Abstracción:
+Resumen
+Programación Tradicional:
+Simple y directa, ideal para programas pequeños.
 
-Programación Tradicional: El cálculo del promedio y el ingreso de temperaturas están definidos explícitamente en funciones separadas. Si bien se abstrae la lógica, 
-el programa depende directamente de la implementación de estas funciones.
-Programación Orientada a Objetos (POO): La abstracción es más avanzada, ya que el programa interactúa con objetos y se utiliza una interfaz pública para la 
-manipulación de las temperaturas. La lógica de cálculo del promedio está oculta dentro del método calcular_promedio, y no es necesario entender cómo funciona internamente para usarla.
+POO:
+Más organizada y flexible, ideal para programas más grandes o complejos.
 
-Herencia y Polimorfismo:
-
-Programación Tradicional: No se emplea herencia ni polimorfismo, ya que no se trabaja con clases ni objetos. Cada función realiza tareas específicas sin extender la 
-funcionalidad de otras funciones o estructuras.
-Programación Orientada a Objetos (POO): Se utiliza herencia para crear una clase derivada RegistroClimaAvanzado que extiende la funcionalidad de RegistroClima. Además, 
-se emplea polimorfismo, ya que el método calcular_promedio es sobrescrito para excluir la temperatura más baja al calcular el promedio, lo que permite cambiar el 
-comportamiento de la clase sin modificar el código de la clase base.
-
-Reutilización de Código:
-
-Programación Tradicional: La reutilización de código en la programación tradicional depende de la copia de las funciones en otros lugares del código. No existe un
-mecanismo fácil para extender o modificar el comportamiento de las funciones sin alterar todo el flujo de trabajo.
-Programación Orientada a Objetos (POO): La reutilización de código es más sencilla debido a la estructura basada en clases. Se pueden crear nuevas clases derivadas 
-o extender el comportamiento de las existentes sin modificar la lógica interna del resto del programa.
-
-Mantenimiento:
-
-Programación Tradicional: El mantenimiento puede ser más difícil en programas grandes, ya que las funciones son independientes y no están bien organizadas en un sistema 
-coherente. Los cambios en una función pueden requerir modificaciones en múltiples partes del código.
-Programación Orientada a Objetos (POO): La programación orientada a objetos facilita el mantenimiento del código debido a su modularidad. Las clases pueden modificarse o 
-extenderse sin afectar otras partes del programa, lo que hace más fácil ajustar el código sin introducir errores.
-
-Complejidad y Uso:
-
-Programación Tradicional: Es más simple de implementar para programas pequeños o scripts rápidos. No requiere entender conceptos complejos como clases, objetos, herencia o polimorfismo.
-Programación Orientada a Objetos (POO): Requiere una curva de aprendizaje mayor debido a la necesidad de entender conceptos como clases, objetos, encapsulamiento, herencia, y polimorfismo. 
-Sin embargo, proporciona un marco más robusto para proyectos grandes y complejos.
-
-Conclusión:
-
-La programación tradicional es más directa y sencilla, ideal para proyectos pequeños o situaciones donde no se necesita mucha complejidad. Sin embargo, su falta de modularidad y 
-reutilización puede ser un problema en programas más grandes.
-La programación orientada a objetos (POO) es más adecuada para proyectos más complejos, donde la escalabilidad, mantenimiento y reutilización de código son importantes. 
-El uso de clases y objetos, junto con principios como la herencia y el polimorfismo, hace que el código sea más modular y fácil de mantener.
+Ambos métodos son útiles, pero la elección depende del tamaño y complejidad del proyecto.
