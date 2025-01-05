@@ -29,7 +29,7 @@ class Hotel:
             if habitacion["numero"] == numero and habitacion["estado"] == "disponible":  # Si la habitación es la que se busca y está disponible
                 habitacion["estado"] = "reservada"  # Cambia el estado de la habitación a "reservada"
                 print(f"Habitación {numero} reservada con éxito.")  # Muestra un mensaje de confirmación
-                return  # Sale del me|todo
+                return  # Sale del metodo
         print(f"Habitación {numero} no está disponible.")  # Si no se encuentra o la habitación no está disponible, muestra este mensaje
 
 
