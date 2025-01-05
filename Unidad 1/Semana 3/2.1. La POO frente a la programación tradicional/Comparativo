@@ -1,0 +1,27 @@
+Comparación entre Programación Tradicional y Programación Orientada a Objetos (POO)
+Ambos códigos tienen el mismo propósito: calcular el promedio de temperaturas de una semana en Guayaquil, pero lo hacen de manera diferente. 
+A continuación, se explican las diferencias de forma sencilla:
+
+1. Programación Tradicional
+
+Estructura: Se basa en funciones (ingresar_temperaturas y calcular_promedio) que se llaman desde una función principal (main).
+Simplicidad: Es más fácil de entender y usar para programas pequeños.
+Mantenimiento: Puede ser difícil de modificar si el programa crece.
+Ejemplo de flujo: Se ingresa la temperatura, se guarda en una lista y se calcula el promedio directamente.
+
+2. Programación Orientada a Objetos (POO)
+
+Estructura: Se basa en clases (RegistroClima y RegistroClimaAvanzado) y objetos.
+Encapsulamiento: Los datos (temperaturas) se gestionan dentro de la clase.
+Extensibilidad: Se puede agregar más funcionalidad fácilmente usando herencia.
+Polimorfismo: Se cambia el método calcular_promedio para tener un comportamiento diferente en RegistroClimaAvanzado.
+Ejemplo de flujo: Se crea un objeto, se ingresan las temperaturas y el objeto calcula el promedio.
+
+Resumen
+Programación Tradicional:
+Simple y directa, ideal para programas pequeños.
+
+POO:
+Más organizada y flexible, ideal para programas más grandes o complejos.
+
+Ambos métodos son útiles, pero la elección depende del tamaño y complejidad del proyecto.
