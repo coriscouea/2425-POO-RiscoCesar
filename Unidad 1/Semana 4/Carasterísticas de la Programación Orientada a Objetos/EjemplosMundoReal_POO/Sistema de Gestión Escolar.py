@@ -7,7 +7,7 @@ class Estudiante:
         self.matricula = matricula  # Atributo para la matrícula del estudiante
         self.cursos = []  # Lista vacía que almacenará los cursos en los que está inscrito el estudiante
 
-    # Método para inscribir al estudiante en un curso.
+    # Metodo para inscribir al estudiante en un curso.
     def inscribir_curso(self, curso):
         self.cursos.append(curso)  # Agrega el curso a la lista de cursos
         print(f"{self.nombre} Se ha inscrito en {curso.nombre}.")  # Muestra un mensaje con la inscripción
@@ -20,7 +20,7 @@ class Curso:
         self.codigo = codigo  # Atributo para el código del curso
         self.estudiantes = []  # Lista vacía que almacenará los estudiantes inscritos en el curso
 
-    # Método para agregar un estudiante al curso.
+    # Metodo para agregar un estudiante al curso.
     def agregar_estudiante(self, estudiante):
         self.estudiantes.append(estudiante)  # Agrega el estudiante a la lista de estudiantes
         print(f"{estudiante.nombre} Se ha agregado {self.nombre}.")  # Muestra un mensaje confirmando que el estudiante fue agregado
@@ -32,7 +32,7 @@ class Profesor:
         self.nombre = nombre  # Atributo para el nombre del profesor
         self.cursos = []  # Lista vacía que almacenará los cursos que el profesor imparte
 
-    # Método para asignar un curso al profesor.
+    # Metodo para asignar un curso al profesor.
     def asignar_curso(self, curso):
         self.cursos.append(curso)  # Agrega el curso a la lista de cursos del profesor
         print(f"{self.nombre} ahora imparte el curso {curso.nombre}.")  # Muestra un mensaje indicando el curso asignado

@@ -7,13 +7,13 @@ class Hotel:
         self.habitaciones = []  # Lista vacía que almacenará las habitaciones del hotel
 
 
-    # Método para agregar una habitación al hotel.
+    # Metodo para agregar una habitación al hotel.
     def agregar_habitacion(self, numero):
         """Agrega una habitación con su número al hotel."""
         self.habitaciones.append({"numero": numero, "estado": "disponible"})  # Agrega un diccionario con el número y estado de la habitación (disponible)
 
 
-    # Método para mostrar todas las habitaciones y su estado (disponible o reservada).
+    # Metodo para mostrar todas las habitaciones y su estado (disponible o reservada).
     def mostrar_habitaciones(self):
         """Muestra todas las habitaciones y su estado."""
         if not self.habitaciones:  # Verifica si la lista de habitaciones está vacía
@@ -22,25 +22,25 @@ class Hotel:
             print(f"Habitación {habitacion['numero']}: {habitacion['estado']}")  # Muestra el número de la habitación y su estado (disponible o reservada)
 
 
-    # Método para reservar una habitación (cambiar su estado a 'reservada').
+    # Metodo para reservar una habitación (cambiar su estado a 'reservada').
     def reservar_habitacion(self, numero):
         """Cambia el estado de una habitación a 'reservada'."""
         for habitacion in self.habitaciones:  # Recorre todas las habitaciones
             if habitacion["numero"] == numero and habitacion["estado"] == "disponible":  # Si la habitación es la que se busca y está disponible
                 habitacion["estado"] = "reservada"  # Cambia el estado de la habitación a "reservada"
                 print(f"Habitación {numero} reservada con éxito.")  # Muestra un mensaje de confirmación
-                return  # Sale del método
+                return  # Sale del me|todo
         print(f"Habitación {numero} no está disponible.")  # Si no se encuentra o la habitación no está disponible, muestra este mensaje
 
 
-    # Método para liberar una habitación (cambiar su estado a 'disponible').
+    # Metodo para liberar una habitación (cambiar su estado a 'disponible').
     def liberar_habitacion(self, numero):
         """Cambia el estado de una habitación a 'disponible'."""
         for habitacion in self.habitaciones:  # Recorre todas las habitaciones
             if habitacion["numero"] == numero and habitacion["estado"] == "reservada":  # Si la habitación es la que se busca y está reservada
                 habitacion["estado"] = "disponible"  # Cambia el estado de la habitación a "disponible"
                 print(f"Habitación {numero} está ahora disponible.")  # Muestra un mensaje de confirmación
-                return  # Sale del método
+                return  # Sale del metodo
         print(f"Habitación {numero} no está reservada.")  # Si la habitación no estaba reservada, muestra este mensaje
 
 
