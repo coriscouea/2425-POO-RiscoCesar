@@ -1,0 +1,6 @@
+Producto agregado: ID=1, Nombre=Teclado
+Producto agregado: ID=2, Nombre=Mouse
+Producto agregado: ID=3, Nombre=Monitor
+Producto agregado: ID=4, Nombre=Case CPU
+Producto eliminado: ID=4
+Producto actualizado: ID=1, Cantidad=25, Precio=14.3

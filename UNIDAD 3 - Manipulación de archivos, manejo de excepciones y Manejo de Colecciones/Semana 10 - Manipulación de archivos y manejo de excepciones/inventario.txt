@@ -1,0 +1,21 @@
+
+--- Archivo de Inventario ---
+ID del Producto:        |1
+Nombre del Producto:    |Teclado
+Cantidad del Producto:  |25
+Precio del Producto $:  |14.30
+-----------------------------
+
+--- Archivo de Inventario ---
+ID del Producto:        |2
+Nombre del Producto:    |Mouse
+Cantidad del Producto:  |50
+Precio del Producto $:  |9.50
+-----------------------------
+
+--- Archivo de Inventario ---
+ID del Producto:        |3
+Nombre del Producto:    |Monitor
+Cantidad del Producto:  |70
+Precio del Producto $:  |109.10
+-----------------------------
