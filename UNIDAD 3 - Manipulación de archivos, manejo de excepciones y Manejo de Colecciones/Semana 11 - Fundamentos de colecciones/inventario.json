@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre": "Licencia W10 PRO",
+        "cantidad": 25,
+        "precio": 100.1,
+        "estado": "Disponible"
+    },
+    {
+        "id": 2,
+        "nombre": "licencia W11 PRO",
+        "cantidad": 25,
+        "precio": 140.1,
+        "estado": "Disponible"
+    },
+    {
+        "id": 3,
+        "nombre": "licencia Office 365",
+        "cantidad": 0,
+        "precio": 0.0,
+        "estado": "Agotado"
+    },
+    {
+        "id": 4,
+        "nombre": "Licencia Antivirus Avast",
+        "cantidad": 120,
+        "precio": 25.1,
+        "estado": "Disponible"
+    }
+]

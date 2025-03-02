@@ -1,0 +1,8 @@
+Producto agregado: ID=1, Nombre=Licencia W10 PRO
+Producto agregado: ID=2, Nombre=licencia W11 PRO
+Producto agregado: ID=3, Nombre=licencia Office 365
+Producto agregado: ID=4, Nombre=Licencia Antivirus Avast
+Producto agregado: ID=5, Nombre=Soporte Técnico de Servidores
+Producto eliminado: ID=5, Nombre=Soporte Técnico de Servidores
+Producto actualizado: ID=4, Nombre=Licencia Antivirus Avast, Cantidad=150 → 120, Precio= $27.30 → $ 25.10
+Producto actualizado: ID=3, Nombre=licencia Office 365, Cantidad=40 → 0, Precio= $27.20 → $ 0.00

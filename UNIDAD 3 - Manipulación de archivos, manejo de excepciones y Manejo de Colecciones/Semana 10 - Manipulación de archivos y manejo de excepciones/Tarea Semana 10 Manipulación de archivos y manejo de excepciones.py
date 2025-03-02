@@ -87,7 +87,7 @@ class Inventario:
     Inicializa la lista de productos y carga el inventario desde el archivo.
     """
     def __init__(self):
-        self.productos = []
+        self.productos = {}
         self.archivo_inventario = 'inventario.txt'
         self.cargar_inventario()
 
@@ -338,6 +338,7 @@ def main():
             elif opcion == "2":
                 id = obtener_entero("Ingrese el ID del producto a eliminar: ")
                 inventario.eliminar_producto(id)
+                inventario.guardar_inventario()
 
             elif opcion == "3":
                 id = obtener_entero("Ingrese el ID del producto a actualizar: ")
