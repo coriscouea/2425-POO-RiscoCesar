@@ -1,0 +1,30 @@
+{
+    "001": {
+        "isbn": "001",
+        "titulo": "Breves respuestas a las grandes preguntas",
+        "autor": "Stephen Hawking",
+        "categoria": "Ciencia / Divulgaci\u00f3n cient\u00edfica",
+        "prestado": false
+    },
+    "002": {
+        "isbn": "002",
+        "titulo": "Cien a\u00f1os de soledad",
+        "autor": "Gabriel Garc\u00eda M\u00e1rquez",
+        "categoria": "Literatura / Novela",
+        "prestado": true
+    },
+    "003": {
+        "isbn": "003",
+        "titulo": "El arte de la guerra",
+        "autor": "Sun Tzu",
+        "categoria": "Estrategia / Filosof\u00eda",
+        "prestado": false
+    },
+    "004": {
+        "isbn": "004",
+        "titulo": "Algoritmos: Teor\u00eda y pr\u00e1ctica",
+        "autor": "Thomas H. Cormen y otros",
+        "categoria": "Tecnolog\u00eda / Programaci\u00f3n",
+        "prestado": false
+    }
+}

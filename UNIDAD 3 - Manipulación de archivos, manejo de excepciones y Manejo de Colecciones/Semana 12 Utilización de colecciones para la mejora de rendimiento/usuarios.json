@@ -1,0 +1,19 @@
+{
+    "100": {
+        "id_usuario": "100",
+        "nombre": "Cesar Risco",
+        "libros_prestados": []
+    },
+    "101": {
+        "id_usuario": "101",
+        "nombre": "Anahi Lopez",
+        "libros_prestados": [
+            "002"
+        ]
+    },
+    "102": {
+        "id_usuario": "102",
+        "nombre": "Johanna Castro",
+        "libros_prestados": []
+    }
+}
