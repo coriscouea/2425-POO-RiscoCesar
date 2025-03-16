@@ -16,7 +16,7 @@ class MyApp:
         self.Etiqueta = tk.Label(recuadro, text="Ingresa los Datos", bg="white", fg="blue", justify="left")
         self.Etiqueta.config(width=20)
         self.Etiqueta.grid(row=0, column=0, padx=10, pady=10, sticky="w")  # sticky="w" alinea a la izquierda
-        # Posicionar la etiqueta en la ventana con el método grid
+        # Posicionar la etiqueta en la ventana con el metodo grid
 
         # Crear un campo de entrada (Entry) para que el usuario pueda ingresar datos
         self.entrada = tk.Entry(recuadro)
